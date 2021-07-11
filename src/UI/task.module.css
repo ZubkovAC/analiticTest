@@ -1,0 +1,91 @@
+.preTable{
+    border: 2px solid #61dafb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #61dafb;
+    margin: 40px;
+    margin-top: 10%;
+    justify-content: center;
+    width: 60%;
+    display: inline-block;
+}
+
+.Table{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+.line {
+    display: inline-block;
+    margin: 10px 30px;
+    border: 1px solid lightslategrey;
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 20px;
+    width: 360px;
+    height: 60px;
+    text-align: start;
+    box-shadow: 0 0 5px grey;
+    transition: 0.5s;
+}
+.line:hover{
+    box-shadow: 0 0 15px grey;
+}
+.lineAnswer {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid lightslategrey;
+    border-radius: 3px;
+    padding: 3px;
+    width: 300px;
+}
+.line input{
+    font-weight: 600;
+    border: 2px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.cell{
+    display: inline-block;
+    width: 26px;
+}
+span{
+    padding: 5px;
+}
+.line_s{
+    padding: 5px;
+}
+.number{
+    padding-left: 10px;
+    margin: 10px;
+}
+.input_style{
+    width: 100px;
+    margin: 10px;
+}
+.Link {
+     border: 1px solid gray ;
+     color:black;
+     box-shadow: 0 0 15px gray;
+     background-color: whitesmoke;
+     font-size: 20px;
+     padding: 3px;
+     outline: none;
+     text-decoration: none;
+     margin: 5px;
+    border-radius: 3px;
+ }
+.LinkDisable {
+    border: 2px solid lightslategrey ;
+    color:black;
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 3px;
+    outline: none;
+    text-decoration: none;
+    margin: 5px;
+    background-color: grey;
+    pointer-events: none;
+}
